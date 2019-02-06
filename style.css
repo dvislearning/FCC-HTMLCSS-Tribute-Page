@@ -59,6 +59,7 @@ body {
 	margin: auto;
 	width: 95%;
 	height: auto;
+	padding-bottom: 20px;
 	top: 20px;
 	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px
 
@@ -74,6 +75,40 @@ body {
 	padding-top: 30px;
 }
 
-#title {
-	color: red;
+#img-div {
+
+
+}
+
+#img-div img {
+	display: block;
+	max-width: 50%;
+	height: auto;
+	margin: auto;
+	border: 3px solid #634806;
+}
+
+#img-caption {
+	padding-top: 10px;
+}
+
+#img-caption p {
+	color: #4b6a88;
+	font-style: italic;
+	font-weight: 600;
+	text-align: center;
+}
+
+#tribute-info {
+	margin: auto;
+	width: 90%;
+	color: #2a2a22;
+	font-size: 2em;
+	font-weight: 680;
+	font-family: monospace;
+	line-height: 33px;
+}
+
+#tribute-info p {
+	padding-top: 20px;
 }
