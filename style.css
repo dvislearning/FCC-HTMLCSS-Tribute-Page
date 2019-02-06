@@ -49,8 +49,29 @@ table {
 	border-spacing: 0;
 }
 
-#main {
+body {
 	background-color: #ff3860;
+}
+
+#main {
+	background-color: #ffeb38;
+	position: relative;
+	margin: auto;
+	width: 95%;
+	height: auto;
+	top: 20px;
+	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px
+
+}
+
+#title h1 {
+	color: #2a2a22;
+	font-size: 80px;
+	font-weight: 900;
+	text-align: center;
+	text-shadow: 2px 2px #ff0000;
+	line-height: 120px;
+	padding-top: 30px;
 }
 
 #title {
